@@ -1,0 +1,70 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.titlebar{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  height: 10vh;
+  align-items: center;
+  margin-bottom: 10vh;
+  
+}
+
+.titlebar>h3{
+  margin-right: 80vw;
+}
+
+.mainsection{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tracksection{
+  width: 70vw;
+  justify-content: center;
+  display: flex;
+}
+
+.tracklist{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.tracklist>button{
+  width: 25vw;
+  margin-bottom: 2vh;
+}
+
+.tracklist>button>div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.tracklist>button>div>h2{
+  margin-left: 10px;
+  font-size: 18px;
+}
